@@ -19,6 +19,17 @@ public class Car {
         this.year = year;
         this.recalls = fetchRecalls();
     }
+    public Car(Car c){
+        this.make = c.make;
+        this.model = c.model;
+        this.year = c.year;
+        this.recalls= c.recalls;
+    }
+
+@Override
+public Car clone(){
+    return new Car(this);
+}
 
     private List<Recall> fetchRecalls() {
         System.out.println("********************************");

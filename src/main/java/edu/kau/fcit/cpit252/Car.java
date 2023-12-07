@@ -7,7 +7,7 @@ import java.net.URISyntaxException;
 import java.net.http.HttpResponse;
 import java.util.List;
 
-public class Car {
+public class Car implements Cloneable{
     private String make;
     private String model;
     private int year;

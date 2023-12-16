@@ -1,9 +1,10 @@
 package edu.kau.fcit.cpit252;
 
-import static org.junit.Assert.*;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Constructor;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class Lab3Test
